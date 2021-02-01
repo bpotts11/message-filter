@@ -24,9 +24,7 @@ export const FriendList = () => {
     render(appStateFriends)
 }
 
-
-
-
+const eventHub = document.querySelector(".container")
 
 // Listen for a browser-generated change event
 eventHub.addEventListener("change", changeEvent => {
